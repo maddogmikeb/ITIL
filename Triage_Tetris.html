@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta developedby="Mike Burns" />
+<!-- saved from url=(0053)https://maddogmikeb.github.io/ITIL/Triage_Tetris.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta developedby="Mike Burns">
   <title>Triage Tetris</title>
   <style>
     :root {
-      --bg: #0f172a;
+      --bg: #ffffff /* #0f172a */  ;
       --panel: #111827;
       --panel-2: #1f2937;
       --text: #e5e7eb;
@@ -31,7 +30,7 @@
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: radial-gradient(circle at top, #16213f 0%, var(--bg) 45%, #09111f 100%);
+      background: #ffffff /* radial-gradient(circle at top, #16213f 0%, var(--bg) 45%, #09111f 100%) */;
       color: var(--text);
       min-height: 100vh;
       display: flex;
@@ -586,7 +585,7 @@
 
     <main class="arena panel" id="arena">
       <div class="arena-header">
-        <div id="statusText">Press Start to begin</div>
+        <div id="statusText">Press Start to begin. Best score: 0</div>
         <div id="timerText">0s</div>
       </div>
 
@@ -1296,4 +1295,4 @@
     updateHud();
     statusText.textContent = `Press Start to begin. Best score: ${state.best}`;
   </script>
-</body>
+</body></html>
